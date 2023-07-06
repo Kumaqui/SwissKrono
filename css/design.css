@@ -1,0 +1,401 @@
+/*預設*/
+*{
+	position: relative;
+	margin: 0px;
+	padding:0px;
+
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    font-family: 'Noto Sans TC';
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+text-decoration:none;
+}
+
+/*header*/
+.bg-red{
+	background-color: #B40014;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.bg-brown{
+	background-color: #F8F7F2;
+}
+
+.bg-dark-brown{
+	background-color: #F8F2D5;
+}
+
+
+/*banner*/
+.bg-img-01{
+	background-image: url(../img/banner-01.jpg) ;
+	background-size: cover;
+	text-align: center;
+}
+
+.bg-img-02{
+	background-image: url(../img/banner-02.jpg) ;
+	background-size: cover;
+	text-align: center;
+}
+
+.bg-img-03{
+	background-image: url(../img/banner-03.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	text-align: center;
+
+}
+
+.bg-img-04{
+	background-image: url(../img/banner-04.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-img-05{
+	background-image: url(../img/banner-05.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bg-img-06{
+	background-image: url(../img/banner-06.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bg-floor-01{
+	background-image: url(../img/floor-01.jpg) ;
+	text-align: center;
+}
+
+.bg-floor-02{
+	background-image: url(../img/floor-02.jpg) ;
+	text-align: center;
+}
+
+.bg-floor-03{
+	background-image: url(../img/floor-03.jpg) ;
+	text-align: center;
+}
+
+.bg-floor-04{
+	background-image: url(../img/floor-04.jpg) ;
+	text-align: center;
+}
+
+.bg-floor-05{
+	background-image: url(../img/floor-05.jpg) ;
+	text-align: center;
+}
+
+.bg-floor-06{
+	background-image: url(../img/floor-06.jpg) ;
+	text-align: center;
+}
+
+.title-top{
+	color: #fff;
+	border: 4px solid #fff;
+	padding: 20px 50px;
+	display: inline-block;
+	letter-spacing: 5px;
+}
+
+.title-footer{
+	color: #fff;
+	letter-spacing: 5px;
+	font-size: 22pt;
+}
+
+/*text*/
+.fz-10{
+	font-size: 10pt;
+	color:#4C000F;
+	font-weight: 500;
+}
+
+.fz-11{
+	font-size: 11pt;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 18pt;
+}
+
+.tetx-justify{
+	text-align: justify;
+}
+
+.ls-2{
+	letter-spacing: 2px;
+}
+
+.ls-3{
+	letter-spacing: 3px;
+}
+
+.ls-4{
+	letter-spacing: 4px;
+}
+
+.ls-5{
+	letter-spacing: 5px;
+}
+
+.circle-text-1{
+	background-color: #AB875A;
+	background-size: 10px;
+	color: #fff;
+	width:80px;height:80px; 
+	border-radius:999em;
+    padding: 1px 5px;
+    margin-right: 5px;
+    line-height: 18pt;
+}
+
+.circle-text-2{
+	background-color: #D6A971;
+	background-size: 10px;
+	color: #fff;
+	width:80px;height:80px; 
+	border-radius:999em;
+    padding: 1px 5px;
+    margin-right: 5px;
+    line-height: 18pt;
+}
+
+.circle-text-3{
+	background-color: #4C000F;
+	background-size: 10px;
+	color: #fff;
+	width:80px;height:80px; 
+	border-radius:999em;
+    padding: 1px 5px;
+    margin-right: 5px;
+    line-height: 18pt;
+}
+
+.text-brown{
+	color: #AB875A;
+}
+
+.luna-p{
+	font-weight: 600;
+	line-height: 22pt;
+}
+
+.title{
+	letter-spacing: 3px;
+	font-weight: 700;
+
+}
+
+.title-hr{
+	border-top: 3px solid #B40014 ;
+	width: 80px;
+	margin-bottom: 40px;
+}
+
+.icon-text{
+	font-size: 10pt;
+	word-break:break-all;
+	color: #B40014;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+}
+
+.text-p{
+	font-size: 10pt;
+	color: #4C000F;
+	font-weight: 500;
+}
+
+.text-red{
+	color: #4C000F;
+}
+
+/*按鈕*/
+.btn{
+	border-radius: 0rem;
+	border: 3px solid transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+}
+
+.btn-primary {
+    color: #fff0;
+    background-color: #ddd0;
+    border-color: #1b467300;
+}
+
+.btn-light{
+    color: #f8f9fa;
+    background-color: transparent;
+    border-color: #f8f9fa;
+}
+
+.btn-orange{
+    color: #f8f9fa;
+    background-color: #F29541;
+    border-color: #F29541;
+}
+
+.btn-orange:hover{
+    color: #F29541;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn:hover{
+	color: #f8f9fa;
+    background-color: #F29541;
+    border-color: #F29541;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #D6A971;
+    border:3px solid #AB875A;
+}
+
+.btn-brown {
+    color: #fff;
+    background-color: #AB875A;
+    border:3px solid #AB875A;
+}
+
+.btn-brown:hover {
+    color: #fff;
+    background-color: #D6A971;
+    border:3px solid #AB875A;
+}
+
+.btn-brown a{
+	color: #fff;
+	font-size: 12pt;
+}
+
+/*輪播圖*/
+.carousel-indicators li {
+	width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #4C000F;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #B40014;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/*index*/
+.video-overlay{
+    background-color: rgba(40, 40, 40, 0.1);
+}
+
+.grid-3-col.grid-gutter .work-item{
+	width: 25%;
+	padding: 0px;
+}
+
+@media (max-width: 767.98px) {
+.grid-3-col.grid-gutter .work-item{
+	width: 50%;
+	padding: 0px;
+}
+}
+
+@media (max-width: 575.98px) {
+.grid-3-col.grid-gutter .work-item{
+	width: 100%;
+	padding: 0px;
+}
+}
+
+.grid-3-col.grid-gutter {
+    margin: 0px;
+}
+
+.works-grid-3-col-wide .container-fluid {
+    padding: 0px;
+}
+
+.work-overlay {
+    background-color: rgb(180, 0, 21,.85);
+}
+
+
+/*hamburger*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/hamburger.svg);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler{
+	padding: 0px;
+}
+
+.scroll-down{
+    bottom: -100px;
+}
+
+
+/*陰影*/
+.img-shadow{
+	box-shadow:0px 20px 10px -10px rgba(78%,3%,18%,0.2);
+}
+
+.text-shadow{
+	text-shadow:0.1em 0.1em 0.5em #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
